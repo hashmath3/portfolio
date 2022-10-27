@@ -26,7 +26,7 @@ const Landing = ({ setSelectedPage }) => {
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[250px] md:max-w-[400px] "
+            className="z-10 w-full max-w-[250px] md:max-w-[400px] rounded-t-full"
             src="assets/profile-image.png"
           />
         )}
@@ -56,8 +56,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+          Hey There! I am Hasmath noor - A Front-end Web Developer. Welcome to my Professional Portfolio.
           </p>
         </motion.div>
 

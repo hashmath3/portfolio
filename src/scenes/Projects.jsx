@@ -80,7 +80,7 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
+        <a href="https://celadon-alfajores-65137c.netlify.app/">  <Project title="Project 1" /></a>
           <Project title="Project 2" />
 
           {/* ROW 2 */}

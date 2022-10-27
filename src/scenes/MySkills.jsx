@@ -19,17 +19,28 @@ const MySkills = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
+          <p className="font-playfair font-semibold text-4xl mb-3 " >
+            MY <span className="text-red top-8">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+          <p className="mt-12 mb-7 top-9 flex gap-4">
+            <div> <b> <li>React</li>
+        <li>JavaScript</li>
+        <li>Redux</li>
+        <li>HTML</li></b></div>
+      
+        <div><b><li>CSS</li>
+        <li>Nodejs</li>
+        <li>java</li>
+       
+        <li>Python</li></b></div>
+        
+  
+
           </p>
         </motion.div>
 
-        <div className="mt-16 md:mt-0">
+        <div className="mt-29 md:mt-0 ">
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10

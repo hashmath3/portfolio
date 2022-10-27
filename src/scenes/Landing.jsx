@@ -11,7 +11,7 @@ const Landing = ({ setSelectedPage }) => {
       className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
     >
       {/* IMAGE SECTION */}
-      <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
+      <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2  ">
         {isAboveLarge ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
@@ -19,14 +19,14 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-full"
+              className="hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-full mt-2 "
               src="assets/profile-image.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[300px] md:max-w-[500px] "
+            className="z-10 w-full max-w-[250px] md:max-w-[400px] "
             src="assets/profile-image.png"
           />
         )}

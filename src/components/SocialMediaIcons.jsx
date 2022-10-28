@@ -11,15 +11,15 @@ const SocialMediaIcons = () => {
         </a>
         <a
           className="hover:opacity-50 transition duration-500"
-          href="https://www.twitter.com"
+          href="https://www.instagram.com/being_hashmath/s"
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="twitter-link" src="../assets/twitter.png" />
+          <img alt="instagram-link" src="../assets/instagram.png" />
         </a>
         <a
           className="hover:opacity-50 transition duration-500"
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/hashmath.basha/"
           target="_blank"
           rel="noreferrer"
         >

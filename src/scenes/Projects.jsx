@@ -57,9 +57,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          Checkout my Projects created with engaging website designs with responsive UI and various Animations which works in real time. 
         </p>
       </motion.div>
 
@@ -77,13 +75,17 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            BEAUTIFUL USER INTERFACES
+            MY Personal Projects
           </div>
-        <a href="https://celadon-alfajores-65137c.netlify.app/">  <Project title="Project 1" /></a>
-          <a href="" > <Project title="Project 2" /></a>
+        <a href="https://celadon-alfajores-65137c.netlify.app/">  <Project title="Project 1" description="CryptoTracker is a crypto currency dashboard built using react js. The website serves as a platform to view all details of top 100 cryptocurrencies in the world and allows them to
+search ,filter, compare and view details of specific cryptocurrencies. You can also view the data in various filters that is by the number of days, and see variations in prices, market cap and volume during the time period chosen. The project is fully responsive and works in real time. "/></a>
+          <a href="" > <Project title="Project 2" description="Admin Dashboard report viewers a unified view of the organization's content creation and consumption patterns. built using React, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build
+this entire application. This application consists of Light and Dark Mode, 4 different Charts, 3 different
+Data Table Pages, FAQ Page, Form Page, and Calendar Integration." /></a>
 
           {/* ROW 2 */}
-         <a href=""> <Project title="Project 3"  description="gsds"/></a>
+         <a href=""> <Project title="Project 3"  description="Fetching Marvel hero's ,using marvel developer API and fetching data from API and displaying in cards, and
+navigating to another page for more information and details regarding Marvel Heros using React Router Dom"/></a>
          <a href=""> <Project title="Project 4" /></a>
          <a href=""> <Project title="Project 5" /></a>
 
